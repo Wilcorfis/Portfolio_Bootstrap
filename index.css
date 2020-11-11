@@ -1,0 +1,115 @@
+body{
+    font-family:'Cabin',sans-serif;
+}
+.navbar{
+    padding-top:15px;
+    padding-bottom:15px;
+    border:0;
+    border-radius: 0;
+    margin-bottom: 150px;
+    font-size:20px;
+    letter-spacing: 1px;
+    background-color: white;
+}
+.navbar li.active a, .navbar li a:hover{
+    background-color: white !important;
+    color:#1abc93 !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:'Baloo Bhaina',cursive;
+}
+#content{
+    margin:0px;
+    padding:0px;
+    margin-top:80px;
+}
+#content>div{
+    min-height: 300px;
+    padding-top:70px;
+    padding-bottom: 70px;
+}
+#content>div:nth-child(odd){
+    background-color: #1abc93;
+}
+#content>div:nth-child(odd) .heading{
+    color:white;
+}
+#content>div:nth-child(even) .heading{
+    color:#1abc93;
+}
+
+h3 span{font-style:normal;}
+h1{
+    font-size: 60px;
+}
+
+
+#about p{
+    letter-spacing: 1px;
+    font-size:20px;
+    
+}
+#about h3{margin-top:50px;}
+#about h3>span{
+    font-size:20px;
+    font-family: 'Cabin',sans-serif;
+}
+#about button{
+    font-size:18px;
+    padding:15px;
+}
+
+
+#portfolio .thumbnail{
+    background-color:#1abc93;
+    border:0;
+    font-size:16px;
+    font-weight: bold;
+}
+#portfolio .thumbnail:hover{
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  color:white;
+}
+#portfolio button:hover{
+  background-color:white !important;
+  color:#1abc93 !important;
+  border-color:white !important;
+}
+#portfolio button,#contact button{
+    font-size:18px;
+    padding:12px;
+    
+}
+
+#contact p{font-size:16px;letter-spacing: 1px;}
+#contact input,#contact textarea{
+    margin-bottom: 5px;
+    border-radius: 0;
+    border:1px solid #1abc93;
+    letter-spacing: 2px;
+    padding:10px;
+}
+#contact textarea{resize:none;}
+
+footer{
+    background-color: black;
+    color:white;
+    min-height: 100px;
+    padding:20px;
+    letter-spacing: 2px;
+}
+footer a,footer a:visited,footer a:active{color:white;
+  line-height: 25px;
+}
+footer a:hover, footer a:visited, footer a:active{
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover{color:#1abc93;}
+footer li{
+    list-style-type: none;
+}
+footer>div:last-child{
+    margin-top:10px;
+    margin-bottom:10px;
+}
